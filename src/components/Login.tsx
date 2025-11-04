@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Shield, Lock, Mail, User } from 'lucide-react';
+import { AI SEDP, Lock, Mail, User } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 
 export default function Login() {
@@ -45,7 +45,7 @@ export default function Login() {
       <div
         className="absolute inset-0 opacity-20"
         style={{
-          backgroundImage: `url('https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=1920')`,
+          backgroundImage: `url('      ')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
@@ -60,11 +60,14 @@ export default function Login() {
               <Shield className="w-12 h-12 text-white" />
             </div>
             <h1 className="text-3xl font-bold text-white mb-2">
-              AI Shield
+              AI 
             </h1>
             <p className="text-blue-200 text-center text-sm">
               Social Engineering Detection Platform
             </p>
+            <h1 className="text-3xl font-bold text-white mb-2">
+              SEDP
+            </h1>
           </div>
 
           {error && (
